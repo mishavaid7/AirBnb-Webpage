@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Airbnb Story </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .full-size-image {
+                background: url('cover.png');
+                background-size: 50% 75%;
+                background-repeat: no-repeat;
+                background-position-y: bottom;
+                background-position: center;
+            }
+        </style>
+    </head>  
+    <body>
+        <div class="full-size-image" id="rest-grades">
+            <div class="text-container">
+                <h1> </h1>
+            </div>
+        </div>
+        <div class="text-container">
+            <p> Link to <a href="http://insideairbnb.com/get-the-data.html">dataset.</a> </p>
+            <p> You can see my code <a href="https://github.com/mishavaid7/Airbnb-ANALYSIS">here.</a></p>
+
+                <p> I've always been curious about the people who put up their homes on AirBnb in New York City. Who are these people? Why do they have so many houses? Let's get nosy. More broadly, I was interested in finding out how many people could potentially be doing it commercially, because then AirBnb is not the cute couch-surfing platform it claims to be 😔 and is worsening the city's housing crisis 👎                </p>
+                <p> The home-sharing movement that Airbnb spearheaded began with the exciting prospect of opening up your home to strangers, meeting interesting new people on the way, all while making some extra bucks on the side. But over the years, the concept has morphed into something a little more sinister. Short-term rentals turn out to be much more profitable for landlords in tourist-heavy cities like New York, compared to year-long leases. But in this case, what’s good for visitors is bad for residents. Affordable housing in cities like New York and San Francisco is on the decline and housing advocates are pointing the finger at Airbnb.  </p>
+                <p> Over the years, multiple legislation has been passed in the city to reduce the Airbnb effect in the housing market. The most recent bill might require all tenants interested in short-term rentals to register with the city before listing their apartment on the app. But it is unclear when it will take effect.                 </p>
+                <p> My goal with this project is to try to understand who the average Airbnb host in New York is. Are the majority of the hosts renting their spare room? Or are commercial listings more prevalent? Let’s dig deeper.                 </p>
+                <p>I used a public dataset of all listings on Airbnb, provided by Inside Airbnb. The scrape was performed in December 2021 so all the listings after that are not in this dataset. Note that this dataset does not contain information about which listing was occupied, we are using the listings to try and understand who tried to list their apartment.                 </p>
+    
+                <iframe title="Entire home listings are the most popular choice for Airbnb hosts in NYC" aria-label="Pie Chart" id="datawrapper-chart-B3V0R" src="https://datawrapper.dwcdn.net/B3V0R/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="476"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                </script>                
+                <p> ‘Entire home’ listings are popular but that doesn’t necessarily mean that all of these listings are commercial. We are interested in those hosts who have multiple ‘entire home’ listings on Airbnb. There were 38,185 unique listings on Airbnb, and 25,574 guests 🧐                </p>
+            
+    </script>
+                <p> While hosts who have more than one listing make up only about 15% of the total hosts, they control almost 43% of all the listings on Airbnb.                 </p>
+                <p> Airbnb does not have a visible metric to determine if a listing is commercial or not. I came up with a metric of my own to highlight possible commercial listings. For example, if a host has multiple ‘entire apartment’ listings. Or an Entire Home Airbnb listing that is rented for more than 90 days in the Last 12 Months. Or a Private Room where the Host has more than 2 Private Room listings. Individual occurrences of these scenarios are not dubious but we are interested in how often they occur.                 </p>
+                <iframe title="Hosts who have more than 1 listing are few in number but control a larger proportion of listings   " aria-label="Split Bars" id="datawrapper-chart-G2nDr" src="https://datawrapper.dwcdn.net/G2nDr/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="241"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            
+                </script>
+            
+                        
+                    
+                </div>
+        </body>
+    </html>            
+
+    
+            </script>            </script>
