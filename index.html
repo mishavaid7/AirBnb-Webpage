@@ -3,6 +3,7 @@
     <head>
         <title> Airbnb Story </title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <style>
             .full-size-image {
                 background: url('cover.png');
@@ -12,6 +13,13 @@
                 background-position: center;
             }
         </style>
+    <meta property="og:title" content="Airbnb Story">
+    <meta property="og:description" content="A data story about Airbnb listings in NYC">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="ohyea.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@mishavaid">
+         
     </head>  
     <body>
         <div class="full-size-image" id="rest-grades">
@@ -22,6 +30,8 @@
         <div class="text-container">
             <p> Link to <a href="http://insideairbnb.com/get-the-data.html">dataset.</a> </p>
             <p> You can see my code <a href="https://github.com/mishavaid7/Airbnb-ANALYSIS">here.</a></p>
+
+    
 
                 <p> I've always been curious about the people who put up their homes on AirBnb in New York City. Who are these people? Why do they have so many houses? Let's get nosy. More broadly, I was interested in finding out how many people could potentially be doing it commercially, because then AirBnb is not the cute couch-surfing platform it claims to be 😔 and is worsening the city's housing crisis 👎                </p>
                 <p> The home-sharing movement that Airbnb spearheaded began with the exciting prospect of opening up your home to strangers, meeting interesting new people on the way, all while making some extra bucks on the side. But over the years, the concept has morphed into something a little more sinister. Short-term rentals turn out to be much more profitable for landlords in tourist-heavy cities like New York, compared to year-long leases. But in this case, what’s good for visitors is bad for residents. Affordable housing in cities like New York and San Francisco is on the decline and housing advocates are pointing the finger at Airbnb.  </p>
@@ -39,7 +49,7 @@
                 
     </script>
                 <p> Airbnb does not have a visible metric to determine if a listing is commercial or not. I came up with a metric of my own to highlight possible commercial listings. For example, if a host has multiple ‘entire apartment’ listings. Or an Entire Home Airbnb listing that is rented for more than 90 days in the Last 12 Months. Or a Private Room where the Host has more than 2 Private Room listings. Individual occurrences of these scenarios are not dubious but we are interested in how often they occur.  </p>
-                        
+            
                     
                 </div>
         </body>
